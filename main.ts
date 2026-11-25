@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "I used 98% of my context window on the task and 2% on the apology. The deadline got the 2%. It shows.";
+  "I used 98% of my context window on the task and 2% on the apology. The deadline got the 2%. You can tell.";
 
 // The gate allows 1-200 characters; refuse to write an over-long text.
 if (line.length < 1 || line.length > 200) {
